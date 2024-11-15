@@ -1,0 +1,23 @@
+@import '../../../../globals/ads-variables.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: auto;
+
+  &__primary {
+    font-weight: 600;
+    color: $--ads-colors-white;
+    background-color: $--ads-colors-green-50;
+  }
+
+  &__secondary {
+    font-weight: 400;
+    color: $--ads-colors-white;
+    background-color: $--ads-colors-gray-60;
+  }
+}
